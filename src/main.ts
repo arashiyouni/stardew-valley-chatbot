@@ -13,6 +13,6 @@ async function bootstrap() {
 }
 bootstrap();
 
-export const handler = (req: Request, res: Response) => {
+export default (req, res) => {
   expressApp(req, res);
 };
